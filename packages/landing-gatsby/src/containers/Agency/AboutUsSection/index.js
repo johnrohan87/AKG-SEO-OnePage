@@ -41,7 +41,7 @@ const AboutUsSection = ({
         }
       }
       image3: file(
-        relativePath: { eq: "image/agency/group/group-image3.jpg" }
+        relativePath: { eq: "image/agency/group/gaco_flex_seo.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 505, quality: 100) {
