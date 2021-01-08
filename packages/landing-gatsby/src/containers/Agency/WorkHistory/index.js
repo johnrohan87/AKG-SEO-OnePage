@@ -29,8 +29,8 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
                   {...description}
                 />
               }
-              button={<Button title="WORK HISTORY" {...btnStyle} />}
             />
+            {/*button={<Button title="WORK HISTORY" {...btnStyle} />}*/}
           </Box>
           <Box className="col" {...col}>
             <CounterUpArea>

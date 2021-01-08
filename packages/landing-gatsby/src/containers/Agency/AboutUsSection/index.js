@@ -23,7 +23,7 @@ const AboutUsSection = ({
   const Data = useStaticQuery(graphql`
     query {
       image1: file(
-        relativePath: { eq: "image/agency/group/group-image1.jpg" }
+        relativePath: { eq: "image/agency/group/firestone_logo_seo.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 505, quality: 100) {
@@ -129,7 +129,7 @@ const AboutUsSection = ({
                 title={<Heading content={feature.title} {...featureTitle} />}
               />
             ))}
-            <Button title="DISCOVER ITEM" {...btnStyle} />
+            {/*<Button title="DISCOVER ITEM" {...btnStyle} />*/}
           </Box>
         </Box>
       </Box>
