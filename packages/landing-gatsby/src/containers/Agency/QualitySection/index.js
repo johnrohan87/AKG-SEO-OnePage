@@ -47,7 +47,7 @@ const QualitySection = ({
             <FeatureBlock
               title={
                 <Heading
-                  content="Our Quality feature that customers always prefer to use on their products."
+                  content="AKG Roofing and Specialty Services, INC."
                   {...title}
                 />
               }
@@ -58,9 +58,26 @@ const QualitySection = ({
                 />
               }
             />
+            <Box className="col" {...description} {...col} {...textArea}>
+              Joe Hernandez, has been a Licensed Roofing Contractor Since 1977,
+              in Dade and Broward county, and state wide by 1987. He also holds
+              an active home inspection license for over 20 years.
+            </Box>
+            <Box className="col" {...description} {...col} {...textArea}>
+              With over 30 years of experience AKG stands by Honesty, Integrity,
+              and Dignity “Roofing is what we do” its our motto.
+            </Box>
+            <Box className="col" {...description} {...col} {...textArea}>
+              Joe Hernandez has been highly respected throughout the entire
+              state of florida for his Knowledge and Roofing evaluations.
+            </Box>
+            <Box className="col" {...description} {...col} {...textArea}>
+              Each and every project is personally Supervised by Joe and he is
+              always available on timely fashion for your personalized needs.
+            </Box>
           </Box>
         </Box>
-        <Box className="row" {...row} {...textArea}>
+        {/*<Box className="row" {...row} {...textArea}>
           {Data.agencyJson.qualityFeature.map((feature, index) => (
             <Box
               className="col"
@@ -78,7 +95,7 @@ const QualitySection = ({
               />
             </Box>
           ))}
-        </Box>
+              </Box>*/}
       </Container>
       <Container fluid noGutter className="info-sec-container">
         <Box className="row" {...row} {...imageAreaRow}>

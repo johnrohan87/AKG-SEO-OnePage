@@ -36,25 +36,25 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
             <CounterUpArea>
               <Card className="card" {...cardStyle}>
                 <h3>
-                  <CountUp start={0} end={20} />+
+                  <CountUp start={0} end={75000} duration={5} />+
                 </h3>
-                <Text content="Companies Engaged" />
+                <Text content="Roofs Repaired by AKG" />
               </Card>
               <Card className="card" {...cardStyle}>
                 <h3>
-                  <CountUp start={0} end={199} duration={5} />
+                  <CountUp start={0} end={100000} duration={5} />
                 </h3>
                 <Text content="Happy Customers" />
               </Card>
               <Card className="card" {...cardStyle}>
                 <h3>
-                  <CountUp start={0} end={300} duration={5} />+
+                  <CountUp start={0} end={39} duration={5} />+
                 </h3>
-                <Text content="Project Complete" />
+                <Text content="Years of Experience" />
               </Card>
               <Card className="card" {...cardStyle}>
                 <Text content="& Much More" />
-                <a href="#1">View work history</a>
+                {/*<a href="#1">View work history</a>*/}
               </Card>
             </CounterUpArea>
           </Box>

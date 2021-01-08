@@ -32,7 +32,7 @@ const AboutUsSection = ({
         }
       }
       image2: file(
-        relativePath: { eq: "image/agency/group/group-image2.jpg" }
+        relativePath: { eq: "image/agency/group/tropical_logo.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 400, quality: 100) {
@@ -108,13 +108,13 @@ const AboutUsSection = ({
             <FeatureBlock
               title={
                 <Heading
-                  content="Great Responsive & Strong Competitive People"
+                  content="Partnering and installing top brand roofing products"
                   {...title}
                 />
               }
               description={
                 <Text
-                  content="Some hardworking People are Working Day and Night to provide you highly scalable product . "
+                  content="We only provide premium long lasting products that come with our service and product instillation guarantees."
                   {...description}
                 />
               }
