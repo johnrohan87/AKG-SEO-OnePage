@@ -60,8 +60,8 @@ const BannerSection = ({
               description={
                 <DiscountLabel>
                   <Text
-                    content="Repairs, Replaces, and Maintains
-                  YOUR Life Investment!"
+                    content="Repairs, Replaces, and Maintains 
+                   YOUR Life Investment!"
                     {...description}
                   />
                 </DiscountLabel>

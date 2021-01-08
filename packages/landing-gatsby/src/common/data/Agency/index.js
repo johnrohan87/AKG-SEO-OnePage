@@ -71,9 +71,9 @@ const data = {
     {
       id: 1,
       icon: 'flaticon-flask',
-      title: 'Search Optimization',
+      title: 'Free Roof Inspection',
       description:
-        'By using Search Engine Optimization, You will get more Clients',
+        'Our roof inspector will be looking for leaks, unusual wear and tear, damage caused by windblown debris, organic growth issues, and problems that may have occurred during roof installation or subsequent repairs.',
     },
     {
       id: 2,
@@ -290,7 +290,7 @@ const data = {
       expend: true,
       title: 'How to contact with Customer Service?',
       description:
-        'Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!. ',
+        'Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact Email and Phone (305) 549-8081 . We try to reply quickly, so you need not to wait too long for a response!. ',
     },
     {
       id: 2,
@@ -435,6 +435,15 @@ const data = {
   social_profile: [
     {
       id: 1,
+      icon: 'flaticon-instagram',
+      link: 'https://www.instagram.com/akgspecialtyservices/',
+    },
+  ],
+};
+{
+  /**
+{
+      id: 1,
       icon: 'flaticon-facebook-logo',
       link: '#1',
     },
@@ -442,11 +451,6 @@ const data = {
       id: 2,
       icon: 'flaticon-twitter-logo-silhouette',
       link: '#2',
-    },
-    {
-      id: 3,
-      icon: 'flaticon-instagram',
-      link: '#3',
     },
     {
       id: 4,
@@ -458,6 +462,6 @@ const data = {
       icon: 'flaticon-dribble-logo',
       link: '#5',
     },
-  ],
-};
+   */
+}
 export default data;

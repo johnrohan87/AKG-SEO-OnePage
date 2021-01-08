@@ -59,6 +59,7 @@ const DiscountLabel = styled.div`
   padding: 7px 25px;
   box-shadow: 0px 4px 50px 0px rgba(22, 53, 76, 0.08);
   margin-bottom: 30px;
+  text-align: center;
   background-color: ${themeGet('colors.white', '#ffffff')};
   @media (max-width: 767px) {
     padding: 7px 10px;

@@ -42,11 +42,11 @@ export default () => {
           <FeatureSection />
           <AboutUsSection />
           <WorkHistory />
-          <BlogSection />
+          {/**<BlogSection /> */}
           <QualitySection />
-          <VideoSection />
-          <TestimonialSection />
-          <TeamSection />
+          {/**<VideoSection />*/}
+          {/**<TestimonialSection />*/}
+          {/**<TeamSection />*/}
           <FaqSection />
           <NewsletterSection />
           <Footer />

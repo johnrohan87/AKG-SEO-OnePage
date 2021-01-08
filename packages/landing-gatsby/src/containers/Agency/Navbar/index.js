@@ -13,7 +13,7 @@ import SearchPanel from '../SearchPanel';
 import LoginModal from '../LoginModal';
 import CopyrightSection from '../CopyrightsSection';
 
-import LogoImage from 'common/assets/image/agency/logo.png';
+import LogoImage from 'common/assets/image/agency/akgspecialtyinc_logo.png';
 
 import { DrawerContext } from 'common/contexts/DrawerContext';
 
@@ -115,6 +115,7 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
           logoStyle={logoStyle}
         />
         <div style={{ display: 'flex', alignItems: 'center' }}>
+          {/** 
           <Button
             variant="textButton"
             onClick={handleSearchModal}
@@ -126,7 +127,7 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
             onClick={handleLoginModal}
             icon={<i className="flaticon-user" />}
             aria-label="login"
-          />
+          />*/}
           <Drawer
             width="420px"
             placement="right"
