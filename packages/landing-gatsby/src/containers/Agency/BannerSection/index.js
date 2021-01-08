@@ -8,6 +8,7 @@ import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
 import Particles from '../../Agency/Particle';
 import BannerWrapper, { DiscountLabel } from './bannerSection.style';
+import Input from 'common/components/Input';
 
 const BannerSection = ({
   row,
@@ -19,15 +20,19 @@ const BannerSection = ({
   discountAmount,
   outlineBtnStyle,
 }) => {
+  const [nameInput, setNameInput] = React.useState('');
+  const [emailInput, setEmailInput] = React.useState('');
+  const [messageInput, setMessageInput] = React.useState('');
+
   const ButtonGroup = () => (
     <Fragment>
-      <Button title="LEARN MORE" {...btnStyle} />
+      {/*<Button title="LEARN MORE" {...btnStyle} />
       <Button
         title="WATCH WORKS"
         variant="textButton"
         icon={<i className="flaticon-next" />}
         {...outlineBtnStyle}
-      />
+  />*/}
     </Fragment>
   );
   return (
@@ -37,23 +42,69 @@ const BannerSection = ({
         <Box className="row" {...row}>
           <Box className="col" {...col}>
             <DiscountLabel>
-              <Text content="25% Discount" {...discountAmount} />
-              <Text content="on every first project budget" {...discountText} />
+              <Text content="Free Estimates!" {...discountAmount} />
+              <Text
+                content="on all residential and commercial roofs!"
+                {...discountText}
+              />
             </DiscountLabel>
             <FeatureBlock
               title={
-                <Heading
-                  content="With Knowledge, Passion, Heart & Soul Agencies"
-                  {...title}
-                />
+                <DiscountLabel>
+                  <Heading
+                    content="AKG Roofing and Specialty Services, INC"
+                    {...title}
+                  />
+                </DiscountLabel>
               }
               description={
-                <Text
-                  content="Agencies around the world are moving to the digital agencies. So, It is high time to introduce your agency digitaly ."
-                  {...description}
-                />
+                <DiscountLabel>
+                  <Text
+                    content="Repairs, Replaces, and Maintains
+                  YOUR Life Investment!"
+                    {...description}
+                  />
+                </DiscountLabel>
               }
-              button={<ButtonGroup />}
+              button={
+                //<ButtonGroup />
+                <Container>
+                  <form>
+                    <Input
+                      inputType="text"
+                      isMaterial={false}
+                      placeholder="Name"
+                      name="name"
+                      aria-label="name"
+                      onChange={(e) => setNameInput(e)}
+                    />
+                    <Input
+                      inputType="email"
+                      isMaterial={false}
+                      placeholder="Email Address"
+                      name="email"
+                      aria-label="email"
+                      onChange={(e) => setEmailInput(e)}
+                    />
+                    <Input
+                      inputType="textarea"
+                      isMaterial={false}
+                      placeholder="Message"
+                      name="message"
+                      aria-label="message"
+                      onChange={(e) => setMessageInput(e)}
+                    />
+                    <Button
+                      type="button"
+                      title="SEND MESSAGE"
+                      {...btnStyle}
+                      onClick={(e) => {
+                        console.log(nameInput, emailInput, messageInput);
+                      }}
+                    />
+                  </form>
+                </Container>
+              }
             />
           </Box>
         </Box>
@@ -103,6 +154,7 @@ BannerSection.defaultProps = {
     minWidth: ['120px', '156px'],
     fontSize: '14px',
     fontWeight: '500',
+    width: '100%',
   },
   outlineBtnStyle: {
     minWidth: ['130px', '156px'],
