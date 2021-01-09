@@ -5,7 +5,7 @@ import Box from 'common/components/Box';
 import Card from 'common/components/Card';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
-import Button from 'common/components/Button';
+//import Button from 'common/components/Button';
 import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
 import WorkHistoryWrapper, { CounterUpArea } from './workHistory.style';

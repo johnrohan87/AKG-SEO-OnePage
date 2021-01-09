@@ -1,22 +1,23 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import { openModal, closeModal } from '@redq/reuse-modal';
+//import { openModal, closeModal } from '@redq/reuse-modal';
 import NavbarWrapper from 'common/components/Navbar';
 import Drawer from 'common/components/Drawer';
-import Button from 'common/components/Button';
+//import Button from 'common/components/Button';
 import Logo from 'common/components/UIElements/Logo';
 import HamburgMenu from 'common/components/HamburgMenu';
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 import { Container } from './navbar.style';
-import SearchPanel from '../SearchPanel';
-import LoginModal from '../LoginModal';
+//import SearchPanel from '../SearchPanel';
+//import LoginModal from '../LoginModal';
 import CopyrightSection from '../CopyrightsSection';
 
 import LogoImage from 'common/assets/image/agency/akgspecialtyinc_logo.png';
 
 import { DrawerContext } from 'common/contexts/DrawerContext';
-
+{
+  /** 
 // Default close button for modal
 const CloseModalButton = () => (
   <Button
@@ -35,11 +36,13 @@ const CloseModalButtonAlt = () => (
     onClick={() => closeModal()}
     icon={<i className="flaticon-plus-symbol" />}
   />
-);
+);*/
+}
 
 const Navbar = ({ navbarStyle, logoStyle }) => {
   const { state, dispatch } = useContext(DrawerContext);
-
+  {
+    /** 
   // Search modal handler
   const handleSearchModal = () => {
     openModal({
@@ -84,7 +87,8 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
       closeComponent: CloseModalButton,
       closeOnClickOutside: false,
     });
-  };
+  };*/
+  }
 
   // Toggle drawer
   const toggleHandler = () => {

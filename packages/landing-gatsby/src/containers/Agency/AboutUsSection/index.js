@@ -7,7 +7,7 @@ import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
 import Card from 'common/components/Card';
-import Button from 'common/components/Button';
+//import Button from 'common/components/Button';
 import FeatureBlock from 'common/components/FeatureBlock';
 import AboutUsSectionWrapper from './aboutUsSection.style';
 

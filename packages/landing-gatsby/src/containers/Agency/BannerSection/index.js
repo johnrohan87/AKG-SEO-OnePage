@@ -24,17 +24,19 @@ const BannerSection = ({
   const [emailInput, setEmailInput] = React.useState('');
   const [messageInput, setMessageInput] = React.useState('');
 
-  const ButtonGroup = () => (
+  {
+    /*const ButtonGroup = () => (
     <Fragment>
-      {/*<Button title="LEARN MORE" {...btnStyle} />
+      <Button title="LEARN MORE" {...btnStyle} />
       <Button
         title="WATCH WORKS"
         variant="textButton"
         icon={<i className="flaticon-next" />}
         {...outlineBtnStyle}
-  />*/}
+  />
     </Fragment>
-  );
+  );*/
+  }
   return (
     <BannerWrapper>
       <Particles />
