@@ -77,7 +77,8 @@ const BannerSection = ({
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                   >
-                    <input type="hidden" name="form-name" value="contact" />
+                    <Input type="hidden" name="form-name" value="contact" />
+                    <Input type="hidden" name="bot-field" />
                     <Input
                       inputType="text"
                       isMaterial={false}
