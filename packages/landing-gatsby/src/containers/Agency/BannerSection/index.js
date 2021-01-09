@@ -78,7 +78,7 @@ const BannerSection = ({
                     method="post"
                   >
                     <input type="hidden" name="form-name" value="contact" />
-                    <Input
+                    <input
                       inputType="text"
                       isMaterial={false}
                       placeholder="Name"
@@ -86,7 +86,7 @@ const BannerSection = ({
                       aria-label="name"
                       onChange={(e) => setNameInput(e)}
                     />
-                    <Input
+                    <input
                       inputType="email"
                       isMaterial={false}
                       placeholder="Email Address"
@@ -94,7 +94,7 @@ const BannerSection = ({
                       aria-label="email"
                       onChange={(e) => setEmailInput(e)}
                     />
-                    <Input
+                    <input
                       inputType="textarea"
                       isMaterial={false}
                       placeholder="Message"
