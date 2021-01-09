@@ -71,7 +71,13 @@ const BannerSection = ({
               button={
                 //<ButtonGroup />
                 <Container>
-                  <form>
+                  <form
+                    name="contact"
+                    method="post"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                  >
+                    <input type="hidden" name="form-name" value="contact" />
                     <Input
                       inputType="text"
                       isMaterial={false}
@@ -97,7 +103,7 @@ const BannerSection = ({
                       onChange={(e) => setMessageInput(e)}
                     />
                     <Button
-                      type="button"
+                      type="submit"
                       title="SEND MESSAGE"
                       {...btnStyle}
                       onClick={(e) => {
