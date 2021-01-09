@@ -72,7 +72,7 @@ const BannerSection = ({
                 //<ButtonGroup />
                 <Container>
                   <form
-                    action="/"
+                    action="#"
                     data-netlify="true"
                     name="contact"
                     method="post"
