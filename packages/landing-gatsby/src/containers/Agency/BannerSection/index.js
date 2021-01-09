@@ -71,7 +71,7 @@ const BannerSection = ({
               button={
                 //<ButtonGroup />
                 <Container>
-                  <form name="contact" method="post">
+                  <form netlify name="contact" method="post">
                     <Input
                       inputType="text"
                       isMaterial={false}
