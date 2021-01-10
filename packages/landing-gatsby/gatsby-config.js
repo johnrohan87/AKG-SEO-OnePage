@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `A react next landing page`,
+    title: `akgspecialtyinc.com`,
     description: `AKG Roofing and Specialty Services, INC`,
     author: `@JohnRRohan`,
   },
@@ -102,6 +102,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 };
