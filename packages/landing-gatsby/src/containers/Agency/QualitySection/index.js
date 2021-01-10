@@ -188,6 +188,7 @@ QualitySection.defaultProps = {
     color: '#343d48cc',
     lineHeight: '1.5',
     ml: '15px',
+    mr: '15px',
   },
   // feature icon default style
   iconStyle: {

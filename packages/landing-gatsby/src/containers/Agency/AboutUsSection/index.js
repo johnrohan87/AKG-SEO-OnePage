@@ -169,6 +169,7 @@ AboutUsSection.defaultProps = {
     color: '#0f2137',
     letterSpacing: '-0.025em',
     mb: '30px',
+    mr: '20px',
   },
   // About us section description default style
   description: {
