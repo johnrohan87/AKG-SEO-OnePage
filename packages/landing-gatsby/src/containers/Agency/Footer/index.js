@@ -48,10 +48,18 @@ const Footer = ({
               logoStyle={logoStyle}
             />
             <Box {...col} style={{ width: '100%' }}>
-              <Link href="tel:+13055498081" {...textStyle}>
+              <Link
+                href="tel:+13055498081"
+                {...textStyle}
+                style={{ padding: '5px' }}
+              >
                 (305)549-8081
               </Link>
-              <Link href="mailto:AKGJoe@gmail.com" {...textStyle}>
+              <Link
+                href="mailto:AKGJoe@gmail.com"
+                {...textStyle}
+                style={{ padding: '5px' }}
+              >
                 akgjoe@gmail.com
               </Link>
             </Box>
