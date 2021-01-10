@@ -44,7 +44,7 @@ const BannerSection = ({
       <Container>
         <Box className="row" {...row}>
           <Box className="col" {...col}>
-            <DiscountLabel>
+            <DiscountLabel style={{ marginTop: '100px' }}>
               <Text content="Free Estimates!" {...discountAmount} />
               <Text
                 content="on all residential and commercial roofs!"

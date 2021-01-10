@@ -6,21 +6,25 @@ import { agencyTheme } from 'common/theme/agency';
 import { ResetCSS } from 'common/assets/css/style';
 import { GlobalStyle, AgencyWrapper } from 'containers/Agency/agency.style';
 import Navbar from 'containers/Agency/Navbar';
-import BannerSection from 'containers/Agency/BannerSection';
-import FeatureSection from 'containers/Agency/FeatureSection';
-import AboutUsSection from 'containers/Agency/AboutUsSection';
-import WorkHistory from 'containers/Agency/WorkHistory';
+//import BannerSection from 'containers/Agency/BannerSection';
+//import FeatureSection from 'containers/Agency/FeatureSection';
+//import AboutUsSection from 'containers/Agency/AboutUsSection';
+//import WorkHistory from 'containers/Agency/WorkHistory';
 //import BlogSection from 'containers/Agency/BlogSection';
 //import TestimonialSection from 'containers/Agency/TestimonialSection';
 //import TeamSection from 'containers/Agency/TeamSection';
 //import VideoSection from 'containers/Agency/VideoSection';
-import FaqSection from 'containers/Agency/FaqSection';
+//import FaqSection from 'containers/Agency/FaqSection';
 //import NewsletterSection from 'containers/Agency/NewsletterSection';
-import QualitySection from 'containers/Agency/QualitySection';
+//import QualitySection from 'containers/Agency/QualitySection';
 import Footer from 'containers/Agency/Footer';
 import { DrawerProvider } from 'common/contexts/DrawerContext';
 import '@redq/reuse-modal/es/index.css';
 import SEO from 'components/seo';
+import Box from 'common/components/Box';
+import Text from 'common/components/Text';
+import Heading from 'common/components/Heading';
+import Container from 'common/components/UI/Container';
 
 export default () => {
   return (
@@ -38,17 +42,11 @@ export default () => {
               <Navbar />
             </DrawerProvider>
           </Sticky>
-          <BannerSection />
-          <FeatureSection />
-          <AboutUsSection />
-          <WorkHistory />
-          {/**<BlogSection /> */}
-          <QualitySection />
-          {/**<VideoSection />*/}
-          {/**<TestimonialSection />*/}
-          {/**<TeamSection />*/}
-          <FaqSection />
-          {/*<NewsletterSection />*/}
+          <Container>
+            <Box style={{ paddingTop: '150px', paddingBottom: '100px' }}>
+              <Text content="This page is under construction." />
+            </Box>
+          </Container>
           <Footer />
         </AgencyWrapper>
         {/* End of agency wrapper section */}

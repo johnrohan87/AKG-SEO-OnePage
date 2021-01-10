@@ -39,7 +39,7 @@ const FeatureSection = ({
         <Box {...sectionHeader}>
           <Text content="OUR SERVICES" {...sectionSubTitle} />
           <Heading
-            content="Featured Service that We Provide"
+            content="Featured Services that We Provide"
             {...sectionTitle}
           />
         </Box>

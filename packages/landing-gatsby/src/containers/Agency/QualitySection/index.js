@@ -18,6 +18,7 @@ const QualitySection = ({
   title,
   featureCol,
   description,
+  descriptionSub,
   textArea,
   imageArea,
   imageAreaRow,
@@ -58,23 +59,29 @@ const QualitySection = ({
                 />
               }
             />
-            <Box className="col" {...description} {...col} {...textArea}>
-              Joe Hernandez, has been a Licensed Roofing Contractor Since 1977,
+          </Box>
+          <Box {...description} {...col} {...textArea}>
+            <Text
+              {...descriptionSub}
+              content="Joe Hernandez, has been a Licensed Roofing Contractor Since 1977,
               in Dade and Broward county, and state wide by 1987. He also holds
-              an active home inspection license for over 20 years.
-            </Box>
-            <Box className="col" {...description} {...col} {...textArea}>
-              With over 30 years of experience AKG stands by Honesty, Integrity,
-              and Dignity “Roofing is what we do” its our motto.
-            </Box>
-            <Box className="col" {...description} {...col} {...textArea}>
-              Joe Hernandez has been highly respected throughout the entire
-              state of florida for his Knowledge and Roofing evaluations.
-            </Box>
-            <Box className="col" {...description} {...col} {...textArea}>
-              Each and every project is personally Supervised by Joe and he is
-              always available on timely fashion for your personalized needs.
-            </Box>
+              an active home inspection license for over 20 years."
+            />
+            <Text
+              {...descriptionSub}
+              content="With over 30 years of experience AKG stands by Honesty, Integrity,
+              and Dignity “Roofing is what we do” its our motto."
+            />
+            <Text
+              {...descriptionSub}
+              content="Joe Hernandez has been highly respected throughout the entire
+              state of florida for his Knowledge and Roofing evaluations."
+            />
+            <Text
+              {...descriptionSub}
+              content="Each and every project is personally Supervised by Joe and he is
+              always available on timely fashion for your personalized needs."
+            />
           </Box>
         </Box>
         {/*<Box className="row" {...row} {...textArea}>
@@ -118,6 +125,7 @@ QualitySection.propTypes = {
   featureCol: PropTypes.object,
   title: PropTypes.object,
   description: PropTypes.object,
+  descriptionSub: PropTypes.object,
   button: PropTypes.object,
 };
 
@@ -174,6 +182,12 @@ QualitySection.defaultProps = {
     color: '#343d48cc',
     lineHeight: '2.1',
     mb: '33px',
+  },
+  descriptionSub: {
+    fontSize: '16px',
+    color: '#343d48cc',
+    lineHeight: '1.5',
+    ml: '15px',
   },
   // feature icon default style
   iconStyle: {

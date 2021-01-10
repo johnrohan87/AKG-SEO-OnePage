@@ -27,7 +27,7 @@ const CopyrightSection = () => {
           </li>
         ))}
       </ul>
-      <Text content="Copyrights 2019 @RedQ Inc" />
+      <Text content="© 2021 AKG Roofing and Specialty Services, INC." />
     </CopyrightWrapper>
   );
 };
