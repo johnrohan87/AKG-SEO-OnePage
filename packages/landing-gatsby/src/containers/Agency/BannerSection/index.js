@@ -19,6 +19,7 @@ const BannerSection = ({
   discountText,
   discountAmount,
   outlineBtnStyle,
+  inputBar,
 }) => {
   const [nameInput, setNameInput] = React.useState('');
   const [emailInput, setEmailInput] = React.useState('');
@@ -95,9 +96,25 @@ const BannerSection = ({
                       onChange={(e) => setEmailInput(e)}
                     />
                     <input
+                      inputType="phone"
+                      isMaterial={false}
+                      placeholder="Phone Number"
+                      name="phone"
+                      aria-label="phone number"
+                      onChange={(e) => setMessageInput(e)}
+                    />
+                    <input
+                      inputType="address"
+                      isMaterial={false}
+                      placeholder="Address, City/Town, Zip"
+                      name="message"
+                      aria-label="address"
+                      onChange={(e) => setMessageInput(e)}
+                    />
+                    <input
                       inputType="textarea"
                       isMaterial={false}
-                      placeholder="Message"
+                      placeholder="Reason For Inquiry"
                       name="message"
                       aria-label="message"
                       onChange={(e) => setMessageInput(e)}
@@ -183,6 +200,12 @@ BannerSection.defaultProps = {
     color: '#0f2137',
     mb: 0,
     as: 'span',
+  },
+  inputBar: {
+    minWidth: ['120px', '156px'],
+    fontSize: '14px',
+    fontWeight: '500',
+    width: '100%',
   },
 };
 

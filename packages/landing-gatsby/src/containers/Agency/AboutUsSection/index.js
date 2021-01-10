@@ -32,7 +32,7 @@ const AboutUsSection = ({
         }
       }
       image2: file(
-        relativePath: { eq: "image/agency/group/tropical_logo.png" }
+        relativePath: { eq: "image/agency/group/tropical_logo.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 400, quality: 100) {
