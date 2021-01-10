@@ -104,14 +104,15 @@ const CounterUpArea = styled.div`
       position: relative;
       top: 22px;
     }
-
-    &:last-child {
-      box-shadow: none;
-      border-radius: 5px;
-      border: 2px dashed ${themeGet('colors.inactiveIcon', '#ebebeb')};
-    }
   }
 `;
 
 export { CounterUpArea };
 export default WorkHistoryWrapper;
+{
+  /**&:last-child {
+      box-shadow: none;
+      border-radius: 5px;
+      border: 2px dashed ${themeGet('colors.inactiveIcon', '#ebebeb')};
+    } */
+}

@@ -5,12 +5,22 @@ import Box from 'common/components/Box';
 import Card from 'common/components/Card';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
+import Image from 'common/components/Image';
 //import Button from 'common/components/Button';
 import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
 import WorkHistoryWrapper, { CounterUpArea } from './workHistory.style';
+import YoungJoe from 'common/assets/image/agency/young_joe_hernandez.jpg';
 
-const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
+const WorkHistory = ({
+  row,
+  col,
+  cardStyle,
+  title,
+  description,
+  btnStyle,
+  cardImageStyle,
+}) => {
   return (
     <WorkHistoryWrapper id="workHistorySection">
       <Container>
@@ -42,7 +52,7 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
               </Card>
               <Card className="card" {...cardStyle}>
                 <h3>
-                  <CountUp start={0} end={100000} duration={5} />
+                  <CountUp start={0} end={100000} duration={5} />+
                 </h3>
                 <Text content="Happy Customers" />
               </Card>
@@ -52,9 +62,13 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
                 </h3>
                 <Text content="Years of Experience" />
               </Card>
-              <Card className="card" {...cardStyle}>
-                <Text content="& Much More" />
-                {/*<a href="#1">View work history</a>*/}
+              <Card className="card" {...cardStyle} style={{}}>
+                <h3>
+                  <Text content="Servicing FL since 1977" />
+                </h3>
+
+                {/*<Image src={YoungJoe} alt="Joe Hernandez" />
+                <a href="#1">View work history</a>*/}
               </Card>
             </CounterUpArea>
           </Box>
@@ -72,6 +86,7 @@ WorkHistory.propTypes = {
   row: PropTypes.object,
   col: PropTypes.object,
   cardStyle: PropTypes.object,
+  cardImageStyle: PropTypes.object,
 };
 
 // WorkHistory default style
@@ -95,6 +110,9 @@ WorkHistory.defaultProps = {
   cardStyle: {
     p: ['20px 20px', '30px 20px', '30px 20px', '53px 40px'],
     borderRadius: '10px',
+    boxShadow: '0px 8px 20px 0px rgba(16, 66, 97, 0.07)',
+  },
+  cardImageStyle: {
     boxShadow: '0px 8px 20px 0px rgba(16, 66, 97, 0.07)',
   },
   // WorkHistory section title default style
