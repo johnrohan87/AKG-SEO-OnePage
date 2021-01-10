@@ -54,7 +54,7 @@ const QualitySection = ({
               }
               description={
                 <Text
-                  content="Customers are our first priority and we provide some exceptional features that our customer prefers . That's why our customers never leave us ."
+                  content="Customers are our first priority and we provide exceptional services that our customers prefer. That's why our customers never leave us."
                   {...description}
                 />
               }
