@@ -2,7 +2,8 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Box from 'common/components/Box';
-import Text from 'common/components/Text';
+//import Text from 'common/components/Text';
+import Link from 'common/components/Link';
 import Heading from 'common/components/Heading';
 import Logo from 'common/components/UIElements/Logo';
 import Container from 'common/components/UI/Container';
@@ -46,12 +47,20 @@ const Footer = ({
               title="akgspecialtyinc"
               logoStyle={logoStyle}
             />
-            <Text content="akgjoe@gmail.com" {...textStyle} />
+            <Box {...col} style={{ width: '100%' }}>
+              <Link href="tel:+13055498081" {...textStyle}>
+                (305)549-8081
+              </Link>
+              <Link href="mailto:AKGJoe@gmail.com" {...textStyle}>
+                akgjoe@gmail.com
+              </Link>
+            </Box>
+
             {
               //<Text content="+479-443-9334" ...textStyle />
             }
           </Box>
-          {/* End of footer logo column */}
+          {/* End of footer logo column 
           <Box {...colTwo}>
             {Data.agencyJson.menuWidget.map((widget) => (
               <Box className="col" {...col} key={widget.id}>
@@ -67,7 +76,8 @@ const Footer = ({
                 </List>
               </Box>
             ))}
-          </Box>
+          </Box>*/}
+          <Box {...colTwo}>© 2021 AKG Roofing and Specialty Services, INC.</Box>
           {/* End of footer List column */}
         </Box>
       </Container>

@@ -15,7 +15,8 @@
     "offset": "67"
   }
 ],
-  "menuItems": [{
+  "menuItems": [
+    {
       "label": "Our Services",
       "path": "#featureSection",
       "offset": "50"
@@ -237,8 +238,8 @@
   "faq": [{
       "id": 1,
       "expend": true,
-      "title": "How to contact with Customer Service?",
-      "description": "Our Customer Experience Team is available 7 days a week and we offer 3 ways to get in contact Email and Phone (305) 549-8081 and with our website contact form."
+      "title": "How to contact Customer Service?",
+      "description": "Our Team is available 7 days a week and we offer 3 ways to get in contact Email: AKGJoe@gmail.com Phone: (305) 549-8081 and through our website contact form."
     }
   ],
   "savedFAQ": [{
@@ -261,44 +262,9 @@
       "title": "About Us",
       "menuItems": [
         {
-          "id": 2,
+          "id": 1,
           "url": "#2",
           "text": "Contact Us"
-        },
-        {
-          "id": 3,
-          "url": "#3",
-          "text": "About Us"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Our Information",
-      "menuItems": [{
-          "id": 1,
-          "url": "#1",
-          "text": "Refund Policy"
-        },
-        {
-          "id": 2,
-          "url": "#2",
-          "text": "Privacy Policy"
-        },
-        {
-          "id": 3,
-          "url": "#2",
-          "text": "Terms & Conditions"
-        },
-        {
-          "id": 4,
-          "url": "#4",
-          "text": "Site Map"
-        },
-        {
-          "id": 5,
-          "url": "#5",
-          "text": "Store Hours"
         }
       ]
     }
@@ -309,5 +275,35 @@
       "icon": "flaticon-instagram",
       "link": "https://www.instagram.com/akgspecialtyservices/"
     }
-  ]
+  ],
+  "savedMenuLinks":[{
+    "id": 2,
+    "title": "Our Information",
+    "menuItems": [{
+        "id": 1,
+        "url": "#1",
+        "text": "Refund Policy"
+      },
+      {
+        "id": 2,
+        "url": "#2",
+        "text": "Privacy Policy"
+      },
+      {
+        "id": 3,
+        "url": "#2",
+        "text": "Terms & Conditions"
+      },
+      {
+        "id": 4,
+        "url": "#4",
+        "text": "Site Map"
+      },
+      {
+        "id": 5,
+        "url": "#5",
+        "text": "Store Hours"
+      }
+    ]
+  }]
 }

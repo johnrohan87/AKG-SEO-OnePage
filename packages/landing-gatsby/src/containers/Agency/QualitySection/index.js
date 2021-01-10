@@ -10,7 +10,7 @@ import Image from 'common/components/Image';
 import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
 import QualitySectionWrapper from './qualitySection.style';
-import FeatureImage from 'common/assets/image/agency/surface-studio.png';
+import FeatureImage from 'common/assets/image/agency/joe_hernandez.jpg';
 
 const QualitySection = ({
   row,
@@ -109,7 +109,7 @@ const QualitySection = ({
           <Box className="col" {...col} {...imageArea}>
             <Card {...imageWrapper}>
               <Fade right delay={90}>
-                <Image src={FeatureImage} alt="Feature Image" />
+                <Image src={FeatureImage} alt="Joe Hernandez" />
               </Fade>
             </Card>
           </Box>

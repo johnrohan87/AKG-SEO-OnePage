@@ -87,7 +87,18 @@ const DiscountLabel = styled.div`
     padding: 7px 10px;
   }
 `;
+const FormTopper = styled.div`
+  display: inline-block;
+  border-radius: 4em 4em 0em 0em;
+  width: 100%;
+  padding: 7px 25px;
+  text-align: center;
+  background-color: ${themeGet('colors.white', '#ffffff')};
+  @media (max-width: 767px) {
+    padding: 7px 10px;
+  }
+`;
 
-export { DiscountLabel };
+export { DiscountLabel, FormTopper };
 
 export default BannerWrapper;

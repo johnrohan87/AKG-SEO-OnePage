@@ -7,8 +7,11 @@ import Button from 'common/components/Button';
 import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
 import Particles from '../../Agency/Particle';
-import BannerWrapper, { DiscountLabel } from './bannerSection.style';
-import Input from 'common/components/Input';
+import BannerWrapper, {
+  DiscountLabel,
+  FormTopper,
+} from './bannerSection.style';
+import Link from 'common/components/Link';
 
 const BannerSection = ({
   row,
@@ -47,7 +50,7 @@ const BannerSection = ({
             <DiscountLabel style={{ marginTop: '100px' }}>
               <Text content="Free Estimates!" {...discountAmount} />
               <Text
-                content="on all residential and commercial roofs!"
+                content="All residential and commercial roofs!"
                 {...discountText}
               />
             </DiscountLabel>
@@ -78,6 +81,24 @@ const BannerSection = ({
                     name="contact"
                     method="post"
                   >
+                    <FormTopper
+                      style={{ backgroundColor: 'white', textAlign: 'center' }}
+                    >
+                      <Text {...description} content="Contact Us at" />
+                      <Link
+                        style={{ padding: '5px 5px' }}
+                        href="tel:+13055498081"
+                      >
+                        (305) 549-8081
+                      </Link>
+                      <Link
+                        style={{ padding: '5px 5px' }}
+                        href="mailto:AKGJoe@gmail.com"
+                      >
+                        AKGJoe@gmail.com
+                      </Link>
+                      <Text {...description} content="Or fill the form below" />
+                    </FormTopper>
                     <input type="hidden" name="form-name" value="contact" />
                     <input
                       inputType="text"

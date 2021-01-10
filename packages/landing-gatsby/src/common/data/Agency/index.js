@@ -8,25 +8,10 @@ import Denny from '../../assets/image/agency/client/denny.png';
 import Menny from '../../assets/image/agency/client/menny.png';
 
 const data = {
-  menuItems: [
-    {
-      label: 'Feature',
-      path: '#featureSection',
-      offset: '80',
-    },
-    {
-      label: 'Work History',
-      path: '#workHistorySection',
-      offset: '67',
-    },
+  savedMenu: [
     {
       label: 'Portfolio',
       path: '#blogSection',
-      offset: '67',
-    },
-    {
-      label: 'Quality feature',
-      path: '#qualitySection',
       offset: '67',
     },
     {
@@ -39,10 +24,27 @@ const data = {
       path: '#teamSection',
       offset: '67',
     },
+  ],
+  menuItems: [
+    {
+      label: 'Our Services',
+      path: '#featureSection',
+      offset: '50',
+    },
+    {
+      label: 'Work History',
+      path: '#workHistorySection',
+      offset: '50',
+    },
+    {
+      label: 'Our Team',
+      path: '#qualitySection',
+      offset: '50',
+    },
     {
       label: 'FAQ',
       path: '#faqSection',
-      offset: '67',
+      offset: '50',
     },
   ],
   aboutus: [
@@ -288,9 +290,9 @@ const data = {
     {
       id: 1,
       expend: true,
-      title: 'How to contact with Customer Service?',
+      title: 'How to contact Customer Service?',
       description:
-        'Our Customer Experience Team is available 7 days a week and we offer 3 ways to get in contact Email and Phone (305) 549-8081 and with our website contact form.',
+        'Our Team is available 7 days a week and we offer 3 ways to get in contact Email: AKGJoe@gmail.com Phone: (305) 549-8081 and through our website contact form.',
     },
   ],
   savedFAQ: [
