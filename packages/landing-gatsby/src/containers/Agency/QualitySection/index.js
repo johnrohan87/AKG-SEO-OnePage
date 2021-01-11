@@ -104,7 +104,12 @@ const QualitySection = ({
           ))}
               </Box>*/}
       </Container>
-      <Container fluid noGutter className="info-sec-container">
+      <Container
+        fluid
+        noGutter
+        className="info-sec-container"
+        style={{ maxWidth: '360px' }}
+      >
         <Box className="row" {...row} {...imageAreaRow}>
           <Box className="col" {...col} {...imageArea}>
             <Card {...imageWrapper}>
