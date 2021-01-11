@@ -13,8 +13,12 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <>
+        <meta
+          name="google-site-verification"
+          content="1iT_BTfL6YIFB8CthGIj7iZo0JyR0wGoUtELTjC6rHQ"
+        />
         <main>{children}</main>
       </>
     )}
