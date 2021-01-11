@@ -24,7 +24,6 @@ const QualitySectionWrapper = styled.section`
     @media only screen and (max-width: 991px) {
       position: relative;
       top: 220px;
-      left: 50%;
     }
   }
 
