@@ -110,6 +110,7 @@ const QualitySection = ({
             <Card {...imageWrapper}>
               <Fade right delay={90}>
                 <Image
+                  className="joe-pic"
                   src={FeatureImage}
                   style={{ maxWidth: '100%', maxHeight: '500px' }}
                   alt="Feature Image"

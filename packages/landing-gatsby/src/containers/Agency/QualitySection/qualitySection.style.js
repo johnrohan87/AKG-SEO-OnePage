@@ -26,7 +26,11 @@ const QualitySectionWrapper = styled.section`
       display: flex;
       flex-direction: column;
       top: 14em;
-      max-width: 300px;
+    }
+  }
+  .joe-pic {
+    @media only screen and (max-width: 991px) {
+      width: 100%;
     }
   }
 
