@@ -28,9 +28,10 @@ const QualitySectionWrapper = styled.section`
       top: 14em;
     }
   }
+
   .joe-pic {
     @media only screen and (max-width: 991px) {
-      width: 100%;
+      max-width: 80%;
     }
   }
 
