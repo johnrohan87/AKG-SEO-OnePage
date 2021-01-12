@@ -26,6 +26,7 @@ const QualitySectionWrapper = styled.section`
       display: flex;
       flex-direction: column;
       top: 14em;
+      max-width: 300px;
     }
   }
 
