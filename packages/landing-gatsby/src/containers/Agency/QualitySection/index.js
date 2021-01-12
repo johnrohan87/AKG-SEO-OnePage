@@ -109,12 +109,7 @@ const QualitySection = ({
           <Box className="col" {...col} {...imageArea}>
             <Card {...imageWrapper}>
               <Fade right delay={90}>
-                <Image
-                  src={FeatureImage}
-                  objectFit="contain"
-                  style={{ maxWidth: '752px', width: '100%', padding: '10px' }}
-                  alt="Joe Hernandez"
-                />
+                <Image src={FeatureImage} alt="Feature Image" />
               </Fade>
             </Card>
           </Box>
