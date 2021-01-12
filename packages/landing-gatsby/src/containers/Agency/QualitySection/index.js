@@ -10,7 +10,7 @@ import Image from 'common/components/Image';
 import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
 import QualitySectionWrapper from './qualitySection.style';
-import FeatureImage from 'common/assets/image/agency/joe_hernandez.jpg';
+import FeatureImage from 'common/assets/image/agency/surface-studio.png';
 
 const QualitySection = ({
   row,
@@ -112,7 +112,7 @@ const QualitySection = ({
                 <Image
                   src={FeatureImage}
                   objectFit="contain"
-                  style={{ maxWidth: '360px', width: '100%', padding: '10px' }}
+                  style={{ maxWidth: '752px', width: '100%', padding: '10px' }}
                   alt="Joe Hernandez"
                 />
               </Fade>
