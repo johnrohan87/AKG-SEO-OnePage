@@ -10,7 +10,7 @@ import Image from 'common/components/Image';
 import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
 import QualitySectionWrapper from './qualitySection.style';
-import FeatureImage from 'common/assets/image/agency/surface-studio.png';
+import FeatureImage from 'common/assets/image/agency/joe_hernandez.jpg';
 
 const QualitySection = ({
   row,
