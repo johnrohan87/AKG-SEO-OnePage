@@ -109,7 +109,11 @@ const QualitySection = ({
           <Box className="col" {...col} {...imageArea}>
             <Card {...imageWrapper}>
               <Fade right delay={90}>
-                <Image src={FeatureImage} alt="Feature Image" />
+                <Image
+                  src={FeatureImage}
+                  style={{ maxWidth: '100%', maxHeight: '500px' }}
+                  alt="Feature Image"
+                />
               </Fade>
             </Card>
           </Box>
@@ -166,6 +170,7 @@ QualitySection.defaultProps = {
   imageWrapper: {
     boxShadow: 'none',
     width: '100%',
+    padding: '15px',
   },
   // Quality section title default style
   title: {

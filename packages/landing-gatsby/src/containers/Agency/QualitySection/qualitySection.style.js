@@ -23,11 +23,7 @@ const QualitySectionWrapper = styled.section`
     z-index: -1;
     @media only screen and (max-width: 991px) {
       position: relative;
-      top: 12em;
-      left: 50%;
-      padding: 15px;
-      width: 792px;
-      heitht: 896px;
+      top: 15em;
     }
   }
 
