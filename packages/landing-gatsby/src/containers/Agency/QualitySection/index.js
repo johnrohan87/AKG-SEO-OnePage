@@ -104,18 +104,13 @@ const QualitySection = ({
           ))}
               </Box>*/}
       </Container>
-      <Container
-        fluid
-        noGutter
-        className="info-sec-container"
-        style={{ maxWidth: '360px' }}
-      >
+      <Container fluid noGutter className="info-sec-container">
         <Box className="row" {...row} {...imageAreaRow}>
           <Box className="col" {...col} {...imageArea}>
             <Card {...imageWrapper}>
               <Fade right delay={90}>
                 <Image
-                  style={{ maxWidth: '360px', width: '360px' }}
+                  style={{ maxWidth: '360px' }}
                   src={FeatureImage}
                   alt="Joe Hernandez"
                 />
