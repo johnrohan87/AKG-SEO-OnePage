@@ -112,6 +112,7 @@ const QualitySection = ({
                 <Image
                   src={FeatureImage}
                   objectFit="contain"
+                  style={{ maxWidth: '360px', width: '100%', padding: '10px' }}
                   alt="Joe Hernandez"
                 />
               </Fade>
