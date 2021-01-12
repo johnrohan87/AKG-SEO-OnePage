@@ -26,6 +26,8 @@ const QualitySectionWrapper = styled.section`
       top: 12em;
       left: 50%;
       padding: 15px;
+      width: 792px;
+      heitht: 896px;
     }
   }
 
