@@ -22,8 +22,7 @@ const QualitySectionWrapper = styled.section`
     transform: translate(-50%, -50%);
     z-index: -1;
     @media only screen and (max-width: 991px) {
-      position: relative;
-      top: 220px;
+      display: none;
     }
   }
 
