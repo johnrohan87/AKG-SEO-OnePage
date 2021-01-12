@@ -23,7 +23,9 @@ const QualitySectionWrapper = styled.section`
     z-index: -1;
     @media only screen and (max-width: 991px) {
       position: relative;
-      top: 15em;
+      display: flex;
+      flex-direction: column;
+      top: 14em;
     }
   }
 
