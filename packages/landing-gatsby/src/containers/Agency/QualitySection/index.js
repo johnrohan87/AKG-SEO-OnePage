@@ -112,7 +112,6 @@ const QualitySection = ({
                 <Image
                   className="joe-pic"
                   src={FeatureImage}
-                  style={{ maxWidth: '100%', maxHeight: '500px' }}
                   alt="Feature Image"
                 />
               </Fade>
