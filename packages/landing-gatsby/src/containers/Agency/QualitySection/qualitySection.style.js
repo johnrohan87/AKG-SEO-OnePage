@@ -25,6 +25,7 @@ const QualitySectionWrapper = styled.section`
       position: relative;
       display: flex;
       flex-direction: column;
+      align-content: flex-end;
       top: 14em;
       max-width: 450px;
     }
