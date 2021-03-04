@@ -93,9 +93,9 @@ const BannerSection = ({
                       </Link>
                       <Link
                         style={{ padding: '5px 5px' }}
-                        href="mailto:AKGJoe@akgspecialtyinc.com"
+                        href="mailto:AKGJoe@gmail.com"
                       >
-                        AKGJoe@akgspecialtyinc.com
+                        AKGJoe@gmail.com
                       </Link>
                       <Text {...description} content="Or fill the form below" />
                     </FormTopper>
