@@ -292,7 +292,7 @@ const data = {
       expend: true,
       title: 'How to contact Customer Service?',
       description:
-        'Our Team is available 7 days a week and we offer 3 ways to get in contact Email: AKGJoe@gmail.com Phone: (305) 549-8081 and through our website contact form.',
+        'Our Team is available 7 days a week and we offer 3 ways to get in contact Email: coordinator@akgspecioaltyinc.com Phone: (305) 549-8081 and through our website contact form.',
     },
   ],
   savedFAQ: [
