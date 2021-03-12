@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `akgspecialtyinc.com`,
-    description: `AKG Roofing and Specialty Services, INC`,
+    title: `AKG Roofing and Specialty Services, INC`,
+    description: `Roofing Installation, Repair, and Proactive Maintenance Services for all Commercial and Residential Properties in Florida`,
     author: `@JohnRRohan`,
   },
   plugins: [
