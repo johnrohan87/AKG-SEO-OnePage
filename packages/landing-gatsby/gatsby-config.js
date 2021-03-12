@@ -22,6 +22,20 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-marketing-platform',
+      options: {
+        dataLayer: {
+          gaPropertyId: process.env.GA_PROPERTY_ID,
+        },
+        tagmanager: {
+          id: process.env.GA_TAG_MANAGER_ID,
+        },
+        analytics: {
+          id: process.env.GA_TRACKING_ID,
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
