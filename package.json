@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "gatsby-plugin-google-gtag": "^2.6.0",
-    "gatsby-plugin-google-marketing-platform": "^0.1.21"
+    "gatsby-plugin-google-marketing-platform": "^0.1.21",
+    "gatsby-plugin-sitemap": "^3.0.0"
   }
 }
