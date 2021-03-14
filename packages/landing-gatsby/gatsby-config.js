@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
+    title: `Joe Hernandez`,
     description: `Roofing Installation, Repair, and Proactive Maintenance Services for all Commercial and Residential Properties in Florida`,
+    location: `Miami`,
     author: `@JohnRRohan`,
   },
   plugins: [
