@@ -1,13 +1,13 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+//import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Box from 'common/components/Box';
 //import Text from 'common/components/Text';
 import Link from 'common/components/Link';
-import Heading from 'common/components/Heading';
+//import Heading from 'common/components/Heading';
 import Logo from 'common/components/UIElements/Logo';
 import Container from 'common/components/UI/Container';
-import FooterWrapper, { List, ListItem } from './footer.style';
+import FooterWrapper from './footer.style'; //,{ List, ListItem }
 
 import LogoImage from 'common/assets/image/agency/akgspecialtyinc_logo.png';
 
@@ -20,7 +20,7 @@ const Footer = ({
   logoStyle,
   textStyle,
 }) => {
-  const Data = useStaticQuery(graphql`
+  /**  const Data = useStaticQuery(graphql`
     query {
       agencyJson {
         menuWidget {
@@ -34,7 +34,7 @@ const Footer = ({
         }
       }
     }
-  `);
+  `);*/
 
   return (
     <FooterWrapper id="footerSection">
@@ -143,6 +143,7 @@ Footer.defaultProps = {
   // Default logo size
   logoStyle: {
     width: '128px',
+    height: '53px',
     mb: '15px',
   },
   // widget text default style

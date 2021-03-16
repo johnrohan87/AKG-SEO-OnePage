@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+//import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
 import Box from 'common/components/Box';
@@ -27,7 +27,7 @@ const QualitySection = ({
   featureDescription,
   iconStyle,
 }) => {
-  const Data = useStaticQuery(graphql`
+  /**  const Data = useStaticQuery(graphql`
     query {
       agencyJson {
         qualityFeature {
@@ -38,7 +38,7 @@ const QualitySection = ({
         }
       }
     }
-  `);
+  `); */
 
   return (
     <QualitySectionWrapper id="qualitySection">
@@ -170,6 +170,7 @@ QualitySection.defaultProps = {
   imageWrapper: {
     boxShadow: 'none',
     width: '100%',
+    height: '447px',
     padding: '15px',
   },
   // Quality section title default style

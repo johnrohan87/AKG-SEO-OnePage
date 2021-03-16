@@ -33,7 +33,8 @@ const QualitySectionWrapper = styled.section`
 
   .joe-pic {
     @media only screen and (max-width: 991px) {
-      max-width: 80%;
+      max-width: 100%;
+      max-height: 447px;
     }
   }
 

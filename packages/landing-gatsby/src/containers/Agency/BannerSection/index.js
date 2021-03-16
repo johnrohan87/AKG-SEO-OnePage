@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react'; //, { Fragment }
 import PropTypes from 'prop-types';
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
@@ -58,6 +58,7 @@ const BannerSection = ({
               title={
                 <DiscountLabel>
                   <Heading
+                    as="h1"
                     content="AKG Roofing and Specialty Services, INC"
                     {...title}
                   />
@@ -97,7 +98,10 @@ const BannerSection = ({
                       >
                         AKGJoe@gmail.com
                       </Link>
-                      <Text {...description} content="Or fill the form below" />
+                      <Text
+                        {...description}
+                        content="or Submit a message below"
+                      />
                     </FormTopper>
                     <input type="hidden" name="form-name" value="contact" />
                     <input

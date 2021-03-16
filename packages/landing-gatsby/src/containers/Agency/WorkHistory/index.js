@@ -5,12 +5,12 @@ import Box from 'common/components/Box';
 import Card from 'common/components/Card';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
-import Image from 'common/components/Image';
+//import Image from 'common/components/Image';
 //import Button from 'common/components/Button';
 import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
 import WorkHistoryWrapper, { CounterUpArea } from './workHistory.style';
-import YoungJoe from 'common/assets/image/agency/young_joe_hernandez.jpg';
+//import YoungJoe from 'common/assets/image/agency/young_joe_hernandez.jpg';
 
 const WorkHistory = ({
   row,
