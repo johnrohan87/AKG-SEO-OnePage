@@ -58,7 +58,7 @@ const BannerSection = ({
               title={
                 <DiscountLabel>
                   <Heading
-                    as="h1"
+                    as={'h1'}
                     content="AKG Roofing and Specialty Services, INC"
                     {...title}
                   />
