@@ -54,6 +54,11 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: 'google-site-verification',
                 content: '1iT_BTfL6YIFB8CthGIj7iZo0JyR0wGoUtELTjC6rHQ',
               },
+              {
+                name: 'keywords',
+                content:
+                  'florida inspection services,home inspection miami florida,akg roofing and specialty services inc,florida home inspection services,home inspection companies in miami florida,akg repair,akg roofing,akg inspections,akg roofers miami,akg repair service,roofing miami fl services,akg service,inspection companies miami,roof inspections miami,akg inc,roof inspection miami,miami roof inspection,miami roof inspections,home inspection services miami,roof inspections in florida,home inspection miami-dade,miami dade roof inspections,miami roofing services,joe hernandez,',
+              },
             ]
               .concat(
                 keywords.length > 0
