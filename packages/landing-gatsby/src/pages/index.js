@@ -49,6 +49,33 @@ export default () => {
           {/**<TeamSection />*/}
           <FaqSection />
           {/*<NewsletterSection />*/}
+          <div
+            style={{
+              width: '100%',
+              display: 'flex',
+              margin: '0 auto',
+              textAlign: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <a
+              href={'https://www.expertise.com/fl/miami/roofing'}
+              style={{
+                display: 'inline-block',
+                border: '0',
+                position: 'relative',
+                margin: '0 auto',
+              }}
+            >
+              <img
+                style={{ width: '200px', display: 'block', height: '160px' }}
+                src={
+                  'https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/fl_miami_roofing_2021_transparent.svg'
+                }
+                alt={'Top Miami Roofers'}
+              />
+            </a>
+          </div>
           <Footer />
         </AgencyWrapper>
         {/* End of agency wrapper section */}
