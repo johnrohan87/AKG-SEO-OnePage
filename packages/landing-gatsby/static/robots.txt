@@ -1,5 +1,2 @@
 Sitemap: https://akgspecialtyinc.com/sitemap.xml
 User-agent: *
-Disallow: https://www.akgspecialtyinc.com/
-Disallow: http://www.akgspecialtyinc.com/
-Disallow: http://akgspecialtyinc.com/
