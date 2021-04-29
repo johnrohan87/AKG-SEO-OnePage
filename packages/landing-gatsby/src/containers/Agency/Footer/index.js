@@ -56,11 +56,11 @@ const Footer = ({
                 (305)549-8081
               </Link>
               <Link
-                href="mailto:AKGJoe@gmail.com"
+                href="mailto:coordinator@akgspecialtyinc.com"
                 {...textStyle}
                 style={{ padding: '5px' }}
               >
-                AKGJoe@gmail.com
+                coordinator@akgspecialtyinc.com
               </Link>
             </Box>
 
