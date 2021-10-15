@@ -2,7 +2,7 @@
   for = "/*"
   [headers.values]
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-    Content-Security-Policy = "default-src data: 'unsafe-inline' 'unsafe-eval' https://akgspecialtyinc.com/; script-src data: 'unsafe-inline' 'unsafe-eval' https://akgspecialtyinc.com/ blob:; style-src data: 'unsafe-inline' https://akgspecialtyinc.com/; img-src data: https://akgspecialtyinc.com/ blob:; font-src data: https://akgspecialtyinc.com/; connect-src https://akgspecialtyinc.com/ wss: blob:; media-src https://akgspecialtyinc.com/ blob:; object-src https://akgspecialtyinc.com/; child-src https://akgspecialtyinc.com/ data: blob:; form-action https://akgspecialtyinc.com/; block-all-mixed-content"
+    Content-Security-Policy = "default-src data: 'unsafe-inline' 'unsafe-eval' https://akgspecialtyinc.com/; script-src data: 'unsafe-inline' 'unsafe-eval' https://akgspecialtyinc.com/ blob:; style-src data: 'unsafe-inline' https://akgspecialtyinc.com/; img-src data: https://akgspecialtyinc.com/ https://res.cloudinary.com/ blob:; font-src data: https://akgspecialtyinc.com/; connect-src https://akgspecialtyinc.com/ wss: blob:; media-src https://akgspecialtyinc.com/ blob:; object-src https://akgspecialtyinc.com/; child-src https://akgspecialtyinc.com/ data: blob:; form-action https://akgspecialtyinc.com/; block-all-mixed-content"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
