@@ -23,7 +23,7 @@ const AboutUsSection = ({
   const Data = useStaticQuery(graphql`
     query {
       image1: file(
-        relativePath: { eq: "image/agency/group/firestone_logo_seo.png" }
+        relativePath: { eq: "image/agency/group/firestone_logo_seo.webp" }
       ) {
         childImageSharp {
           fluid(maxWidth: 505, quality: 100) {
@@ -32,7 +32,7 @@ const AboutUsSection = ({
         }
       }
       image2: file(
-        relativePath: { eq: "image/agency/group/tropical_logo.jpg" }
+        relativePath: { eq: "image/agency/group/tropical_logo.webp" }
       ) {
         childImageSharp {
           fluid(maxWidth: 400, quality: 100) {
@@ -41,7 +41,7 @@ const AboutUsSection = ({
         }
       }
       image3: file(
-        relativePath: { eq: "image/agency/group/gaco_flex_seo.png" }
+        relativePath: { eq: "image/agency/group/gaco_flex_seo.webp" }
       ) {
         childImageSharp {
           fluid(maxWidth: 505, quality: 100) {

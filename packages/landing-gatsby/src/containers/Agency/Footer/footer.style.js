@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
-import FooterIamge from 'common/assets/image/agency/footer-bg.png';
+import FooterIamge from 'common/assets/image/agency/footer-bg.webp';
 
 const FooterWrapper = styled.section`
   padding: 80px 0;
