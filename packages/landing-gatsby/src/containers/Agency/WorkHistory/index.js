@@ -62,7 +62,7 @@ const WorkHistory = ({
                 </h3>
                 <Text content="Years of Experience" />
               </Card>
-              <Card className="card" {...cardStyle} style={{}}>
+              <Card className="card" {...cardStyle}>
                 <h3>
                   <Text content="Servicing FL since 1977" />
                 </h3>

@@ -82,18 +82,13 @@ const BannerSection = ({
                     name="contact"
                     method="post"
                   >
-                    <FormTopper
-                      style={{ backgroundColor: 'white', textAlign: 'center' }}
-                    >
+                    <FormTopper>
                       <Text {...description} content="Contact Us at" />
-                      <Link
-                        style={{ padding: '5px 5px' }}
-                        href="tel:+13055498081"
-                      >
+                      <Link className="smallPadding" href="tel:+13055498081">
                         (305) 549-8081
                       </Link>
                       <Link
-                        style={{ padding: '5px 5px' }}
+                        className="smallPadding"
                         href="mailto:coordinator@akgspecialtyinc.com"
                       >
                         coordinator@akgspecialtyinc.com

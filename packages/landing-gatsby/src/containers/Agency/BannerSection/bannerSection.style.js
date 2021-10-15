@@ -97,6 +97,9 @@ const FormTopper = styled.div`
   @media (max-width: 767px) {
     padding: 7px 10px;
   }
+  .smallPadding {
+    padding: 5px 5px;
+  }
 `;
 
 export { DiscountLabel, FormTopper };
