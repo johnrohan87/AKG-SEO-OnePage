@@ -128,6 +128,17 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     'gatsby-plugin-offline',
-    `gatsby-plugin-netlify-headers`,
+    {
+      resolve: `gatsby-plugin-netlify-headers`,
+      options: {
+        headers: {
+          '/*': [
+            'X-XSS-Protection: 1; mode=block',
+            'X-Content-Type-Options: nosniff',
+            'Referrer-Policy: same-origin',
+          ],
+        },
+      },
+    },
   ],
 };
