@@ -2,7 +2,7 @@
   for = "/*"
   [headers.values]
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-    Content-Security-Policy = "script-src https: 'self' 'unsafe-inline' https://www.googletagmanager.com/; img-src https: data: 'self'; style-src https: 'self' 'unsafe-inline';"
+    Content-Security-Policy = "script-src https: 'self' 'unsafe-inline' https://www.googletagmanager.com/; img-src https: data: 'self'; style-src https: 'self' 'unsafe-inline'"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
