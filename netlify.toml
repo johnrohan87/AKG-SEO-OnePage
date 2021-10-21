@@ -2,7 +2,7 @@
   for = "/*"
   [headers.values]
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-    Content-Security-Policy = "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.netlify.app https://www.google-analytics.com; connect-src 'self'; img-src 'self' data: *; style-src 'self' 'unsafe-inline'; font-src data: *; script-src-elem 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.cloudfront.net; object-src 'self'; base-uri 'self'; prefetch-src 'self' https://www.googletagmanager.com; form-action 'self'; default-src 'self';"
+    Content-Security-Policy = "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.netlify.app https://www.google-analytics.com; connect-src 'self' https://*.cloudfront.net; img-src 'self' data: *; style-src 'self' 'unsafe-inline'; font-src data: *; script-src-elem 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.cloudfront.net; object-src 'self'; base-uri 'self'; prefetch-src 'self' https://www.googletagmanager.com; form-action 'self'; default-src 'self';"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
