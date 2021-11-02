@@ -6,7 +6,7 @@ import Heading from 'common/components/Heading';
 import Button from 'common/components/Button';
 import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
-import Particles from '../../Agency/Particle';
+//import Particles from '../../Agency/Particle';
 import BannerWrapper, {
   DiscountLabel,
   FormTopper,
@@ -43,7 +43,7 @@ const BannerSection = ({
   }
   return (
     <BannerWrapper>
-      <Particles />
+      {/*<Particles />*/}
       <Container>
         <Box className="row" {...row}>
           <Box className="col" {...col}>
